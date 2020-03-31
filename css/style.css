@@ -1182,7 +1182,7 @@ header .quotes a:hover {
 	background: none;
 }
 .procsss ul {
-	background: rgba(0,0,0,0.5);
+	background: transparent;
 	padding: 30px 30px;
 }
 .procsss ul li h6 {
