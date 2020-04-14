@@ -34,13 +34,13 @@
 }
 #preloader6 span:nth-child(1){
 background:#5a65d1;
- 
+
 }
 #preloader6 span:nth-child(2){
 left:22px;
 background:#5a65d1;
     animation-delay: .2s;
- 
+
 }
 #preloader6 span:nth-child(3){
 top:22px;
@@ -929,6 +929,8 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 .padding-right-50{padding-right:50px;}
 .padding-top-50{padding-top:50px;}
 .padding-bottom-50{padding-bottom:50px;}
+.team-padding-top-50{padding-top:50px;}
+
 .margin-51{margin:51px;}
 .margin-left-51{margin-left:51px;}
 .margin-right-51{margin-right:51px;}
