@@ -113,6 +113,34 @@
 }
 
 
+
+@media (min-width:992px){
+  .col-mds-9{float:left;
+    width: 30%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: #F47C29;
+  }
+}
+
+@media (max-width:991px){
+  .col-mds-9{
+    align: center;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: #F47C29;
+}
+}
+
+
   .img-responsive1{
     display: block;
     max-width: 100%;

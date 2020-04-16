@@ -62,7 +62,7 @@
 		position: absolute;
 }
 }
-	@media only screen and (max-width: 1360px) {
+	@media only screen and (max-width: 136px) {
   .resolution-buttona {
 			margin-top: -18px;
 			margin-left: -1321px;
@@ -71,7 +71,7 @@
 			position: absolute;
 }
 }
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 128px) {
   .resolution-buttona {
 		margin-top: -22px;
 		margin-left: -1247px;
@@ -89,6 +89,7 @@
 		margin-left: 760px;
 		width:124px;
 		height: 124px;
+    position: absolute;
   }
 }
 
