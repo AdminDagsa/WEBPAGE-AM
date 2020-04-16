@@ -1093,10 +1093,10 @@ a.backtotop {
 	position: fixed;
 	bottom: 4.5rem;
 	right: -4.5rem;
-	width: 4.5rem;
+	width: 10rem;
 	z-index: 5000;
 	color: #fff;
-	text-align: center;
+	text-align: right;
 	line-height: 1;
 	transition: color .7s cubic-bezier(0.54, 0.18, 0.36, 0.81), right .7s cubic-bezier(0.54, 0.18, 0.36, 0.81);
 }
