@@ -47,7 +47,11 @@
 <body>
 
 <!-- TOP -->
-
+<div id="preloader" class="preloader preloader-dark">
+			<div class="loader-status">
+				<div class="circle-side"></div>
+			</div>
+		</div>
 
   <!-- Encabezado -->
   <header>
@@ -64,93 +68,48 @@
   					<div class="header-collapse-inner">
   						<nav class="site-nav">
   							<ul id="navigation">
-  								<div>
-  									<div>
 
-  											<div class="animated" data-animation="fadeInUp" data-animation-delay="150">
-  												<div class="resolution-buttona">
-  													<div>
-  														<a href=#><img src="img/vector-nosotros.png"></a>
-  													</div>
-  												</div>
-  											</div>
-
-  										<div class="animated" data-animation="fadeInUp" data-animation-delay="150">
-  												<div class="resolution-buttonb">
-  													<div>
-  														<a href=index.html#productos><img src="img/vector-servicio.png"></img></a>
-  													</div>
-  												</div>
-  											</div>
-
-  										<div class="animated" data-animation="fadeInUp" data-animation-delay="300">
-  												<div>
-  													<div>
-  														<a href=index.html#servicios><img src="img/vector-portafolio.png"></img></a>
-  													</div>
-  												</div>
-  											</div>
-
-  										<div class="animated" data-animation="fadeInUp" data-animation-delay="450">
-  												<div class="resolution-buttond">
-  													<div>
-  														<i><img src="assets/images/button_cuidados.png"></img></i>
-  													</div>
-  												</div>
-  											</div>
-
-  											<div class="animated" data-animation="fadeInUp" data-animation-delay="600">
-  												<div class="resolution-buttone">
-  													<div>
-  														<i><img src="assets/images/button_contacto.png"></img></i>
-  													</div>
-  												</div>
-  											</div>
-
-  											<div class="animated" data-animation="fadeInUp" data-animation-delay="750">
-  												<div class="resolution-buttonf">
-  													<div>
-  														<i><img src="assets/images/button_promocion.png"></img></i>
-  													</div>
-  												</div>
-  											</div>
-
-  											<div class="animated" data-animation="fadeInUp" data-animation-delay="750">
-  												<div class="resolution-buttong">
-  													<div>
-  														<i><img src="assets/images/button_agenda.png"></img></i>
-  													</div>
-  												</div>
-  											</div>
-
-  								</li>
   							</ul>
   						</nav>
 
-                          </div>
-                          </div>
-                					</div>
-                				</div>
+            </div>
+          </div>
+        </div>
+      </div>
 -->
 
-  						<div class="animated" data-animation="fadeInUp" data-animation-delay="750">
-  							<div class="resolution-logo">
-  								<div>
-  									<img src="img/logo.png"></img>
-  								</div>
-  							</div>
-  						</div>
+  			<div class="animated" data-animation="fadeInUp" data-animation-delay="750">
+  				<div class="resolution-logo">
+  					<div>
+    				</div>
+					</div>
+  			</div>
 
-  			</header>
+ </header>
 
 
 
 <!--======= SECCION INICIO =========-->
 <a name="inicio"></a>
-<section style="background-image: url('img/background-black.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: 100% auto;" class="ln-section d-lg-flex fullscreen-lg" data-anchor="home" data-tooltip="Home" data-overlay-color="#00050e" data-overlay-opacity="50">
+
+<style>
+        #image {
+          background-image: url('img/background-black.jpg');
+          background-repeat: no-repeat;
+          background-attachment: scroll;
+          background-size: 100% auto;
+        }
+        @media only screen and (max-width: 600px) {
+            #image {
+              background-image: url('img/background-black-movil.jpg');
+              background-repeat: no-repeat;
+              background-attachment: scroll;
+              background-size: 100% auto;
+            }
+        }
+        </style>
+
+<section id="image" class="ln-section d-lg-flex fullscreen-lg" data-anchor="home" data-tooltip="Home" data-overlay-color="#00050e" data-overlay-opacity="50">
 					<div class="container align-self-xl-center">
 						<div class="row">
 							<div class="col-12 col-xl-5 mb-5 mb-xl-0">
@@ -191,17 +150,18 @@
 
           <div class="resolution-buttone">
             <div>
-              <a href="#play"><img src="img/vector-boton1.png"></a>
+              <a href="#play"><img class="feature-block animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="750" src="img/vector-boton1.png"></a>
             </div>
           </div>
 
           <div class="resolution-buttonf">
 						<div>
-							<a href=><img src="img/vector-boton2.png"></a>
+							<a href=#win><img src="img/vector-boton2.png"></a>
 						</div>
 					</div>
 
 				</section>
+
 
 <!--======= SECCION QUIENES SOMOS =========-->
       <a name="quienessomos"></a>
@@ -209,7 +169,9 @@
 				background-repeat: repeat;
 				background-attachment: fixed;
 				background-size: 100% auto;" class="ln-section d-lg-flex fullscreen-lg" data-anchor="home" data-tooltip="Home" data-overlay-color="#00050e" data-overlay-opacity="50">
-        <img class="resolution-div-tittle" src="img/div-tittle-quienes-somos.jpg"></img>
+
+        <img class="resolution-div-tittle" src="img/tittles/div-tittle-quienes-somos.jpg"></img>
+
           <div class="container align-self-xl-center">
               <img class="col-mds-6" src="img/img-ajedrez.png">
               <p style="margin-top: 30px;" class="col-mds-7">Somos una agencia joven que busca innovar y ser disruptivos en nuestra forma de comunicar y darle identidad a tu marca</p>
@@ -254,7 +216,7 @@
               </li>
             </ul>
 
-          <p>-</p>
+          <p style="color: transparent;">-</p>
 
             <ul>
               <li class="col-mds-3">
@@ -296,62 +258,62 @@
           background-attachment: fixed;
           background-size: 100% auto;" class="ln-section d-lg-flex fullscreen-lg" data-anchor="home" data-tooltip="Home" data-overlay-color="#00050e" data-overlay-opacity="50">
 
-          <img class="resolution-div-tittle" src="img/div-tittle-clientes.jpg"></img>
+          <img class="resolution-div-tittle" src="img/tittles/div-tittle-clientes.jpg"></img>
 
             <div class="container align-self-xl-center">
 
               <ul>
                 <li class="col-mds-4">
                  <article>
-                   <img class="img-responsive1" src="img/ll1.png">
+                   <img style="vertical-align: middle;" class="img-responsive1" src="img/clients/1-cotorritos.png">
                  </article>
                 </li>
 
                 <li class="col-mds-4">
                  <article>
-                   <img class="img-responsive1" src="img/ll1.png">
+                   <img class="img-responsive1" src="img/clients/2-h18.png">
                  </article>
                 </li>
 
                 <li class="col-mds-4">
                  <article>
-                   <img class="img-responsive1" src="img/ll1.png">
+                   <img class="img-responsive1" src="img/clients/3-coco.png">
                  </article>
                 </li>
 
                 <li class="col-mds-4">
                  <article>
-                   <img class="img-responsive1" src="img/ll2.png">
+                   <img class="img-responsive1" src="img/clients/4-medagsa.png">
                  </article>
                 </li>
 
                 <li class="col-mds-4">
                  <article>
-                   <img class="img-responsive1" src="img/ll2.png">
+                   <img class="img-responsive1" src="img/clients/5-comercia.png">
                  </article>
                 </li>
 
                 <li class="col-mds-4">
                  <article>
-                   <img class="img-responsive1" src="img/ll2.png">
+                   <img class="img-responsive1" src="img/clients/6-cubrex.png">
                  </article>
                 </li>
 
                 <li class="col-mds-4">
                  <article>
-                   <img class="img-responsive1" src="img/ll3.png">
+                   <img class="img-responsive1" src="img/clients/7-losdulces.png">
                  </article>
                 </li>
 
                 <li class="col-mds-4">
                  <article>
-                   <img class="img-responsive1" src="img/ll3.png">
+                   <img class="img-responsive1" src="img/clients/8-beirut.png">
                  </article>
                 </li>
 
                 <li class="col-mds-4">
                  <article>
-                   <img class="img-responsive1" src="img/ll3.png">
+                   <img class="img-responsive1" src="img/clients/9-aguilarysantiago.png">
                  </article>
                 </li>
               </ul>
@@ -515,8 +477,8 @@
                     <li class="col-mds-3">
                      <article>
                       <video class="video-responsive1" autoplay muted loop>
-                        <source src="img/prueba-video.mp4" type="video/mp4">
-                          Su navegador no soprta el formato del video.
+                        <source src="src/dvr-1.mp4" type="video/mp4">
+                          Su navegador no soporta el formato del video.
                       </video>
                       <p class="col-mds-8">INNOVACION</P>
                      </article>
@@ -525,8 +487,8 @@
                     <li class="col-mds-3">
                      <article>
                        <video style="margin-top: 30px;" class="video-responsive1" autoplay muted loop>
-                         <source src="img/prueba-video.mp4" type="video/mp4">
-                           Su navegador no soprta el formato del video.
+                         <source src="src/dvr-2.mp4" type="video/mp4">
+                           Su navegador no soporta el formato del video.
                        </video>
                        <p class="col-mds-8">AGILIDAD</P>
                      </article>
@@ -535,8 +497,8 @@
                     <li class="col-mds-3">
                      <article>
                        <video class="video-responsive1" autoplay muted loop>
-                         <source src="img/prueba-video.mp4" type="video/mp4">
-                           Su navegador no soprta el formato del video.
+                         <source src="src/dvr-3.mp4" type="video/mp4">
+                           Su navegador no soporta el formato del video.
                        </video>
                        <p class="col-mds-8">PERSONALIZACION</P>
                      </article>

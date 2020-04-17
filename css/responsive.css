@@ -17,9 +17,6 @@
 
 
 
-
-
-
 @media only screen and (max-width: 1366px) {
   .resolution-menu {
 		margin-top: 322px;
@@ -32,7 +29,7 @@
 
 
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 601px) {
   .resolution-logo {
 		margin-top: -120px;
 		margin-left: 430px;
@@ -44,15 +41,18 @@
 
 @media only screen and (max-width: 480px) {
   .resolution-logo {
-		margin-top: 20px;
-		margin-left: 30px;
-		width: 50px;
-		height: 50px;
+		margin-top: -560px;
+		margin-left: 45px;
+		width: 200px;
+		height: 200px;
 		position: absolute;
 }
 }
 
 
+
+
+/* boton a */
 @media only screen and (max-width: 1366px) {
   .resolution-buttona {
 		margin-top: 350px;
@@ -82,7 +82,18 @@
 }
 
 
+@media only screen and (max-width: 480px) {
+  .resolution-buttona {
+		margin-top: -380px;
+		margin-left: 48px;
+		width:50px;
+		height: 50px;
+		position: absolute;
+  }
+}
 
+
+/* boton b */
 @media only screen and (max-width: 1366px) {
   .resolution-buttonb {
     margin-top: 350px;
@@ -94,7 +105,19 @@
 }
 
 
+@media only screen and (max-width: 480px) {
+  .resolution-buttonb {
+		margin-top: -380px;
+		margin-left: 95px;
+		width:50px;
+		height: 50px;
+		position: absolute;
+  }
+}
 
+
+
+/* boton c */
 @media only screen and (max-width: 1366px) {
   .resolution-buttonc {
     margin-top: 350px;
@@ -106,7 +129,19 @@
 }
 
 
+@media only screen and (max-width: 480px) {
+  .resolution-buttonc {
+		margin-top: -380px;
+		margin-left: 142px;
+		width:50px;
+		height: 50px;
+		position: absolute;
+  }
+}
 
+
+
+/* boton d */
 @media only screen and (max-width: 1366px) {
   .resolution-buttond {
     margin-top: 350px;
@@ -118,7 +153,19 @@
 }
 
 
+@media only screen and (max-width: 480px) {
+  .resolution-buttond {
+		margin-top: -380px;
+		margin-left: 189px;
+		width:50px;
+		height: 50px;
+		position: absolute;
+  }
+}
 
+
+
+/* boton e */
 @media only screen and (max-width: 1366px) {
   .resolution-buttone {
 		margin-top: 405px;
@@ -130,14 +177,36 @@
 }
 
 
+@media only screen and (max-width: 480px) {
+  .resolution-buttone {
+		margin-top: -270px;
+		margin-left: 42px;
+		width:200px;
+		height: 200px;
+		position: absolute;
+  }
+}
 
 
+
+/* boton f */
 @media only screen and (max-width: 1366px) {
   .resolution-buttonf {
     margin-top: 490px;
 		margin-left: 120px;
 		width: 360px;
 		height: 360px;
+		position: absolute;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .resolution-buttonf {
+		margin-top: -225px;
+		margin-left: 45px;
+		width: 195px;
+		height: 195px;
 		position: absolute;
   }
 }
