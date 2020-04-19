@@ -2906,3 +2906,8 @@ height: 170px;
 		position: absolute;
   }
 }
+
+
+/* Degradado */
+.degradado{
+	linear- (to right, blue, white);

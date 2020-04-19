@@ -167,6 +167,12 @@ License: https://themeforest.net/licenses/standard
 /* Font family */
 .main-font {font-family: 'Open Sans', sans-serif}
 .alt-font {font-family: 'Montserrat', sans-serif}
+@import url(//db.onlinewebfonts.com/c/03b9c644d9278b36d36f0a2ca39e4977?family=FF+Market);
+@font-face {font-family: "FF Market"; src: url("//db.onlinewebfonts.com/t/03b9c644d9278b36d36f0a2ca39e4977.eot"); src: url("//db.onlinewebfonts.com/t/03b9c644d9278b36d36f0a2ca39e4977.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/03b9c644d9278b36d36f0a2ca39e4977.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/03b9c644d9278b36d36f0a2ca39e4977.woff") format("woff"), url("//db.onlinewebfonts.com/t/03b9c644d9278b36d36f0a2ca39e4977.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/03b9c644d9278b36d36f0a2ca39e4977.svg#FF Market") format("svg"); }
+
+@import url(//db.onlinewebfonts.com/c/f16b07c3fd5b4fd150cc55daa3a12428?family=Bebas+Neue+Book);
+@font-face {font-family: "Bebas Neue Book"; src: url("//db.onlinewebfonts.com/t/f16b07c3fd5b4fd150cc55daa3a12428.eot"); src: url("//db.onlinewebfonts.com/t/f16b07c3fd5b4fd150cc55daa3a12428.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f16b07c3fd5b4fd150cc55daa3a12428.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f16b07c3fd5b4fd150cc55daa3a12428.woff") format("woff"), url("//db.onlinewebfonts.com/t/f16b07c3fd5b4fd150cc55daa3a12428.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f16b07c3fd5b4fd150cc55daa3a12428.svg#Bebas Neue Book") format("svg"); }
+
 
 /* Font weight */
 .fw-100 {font-weight:100}
