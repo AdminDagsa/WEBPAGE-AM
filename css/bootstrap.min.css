@@ -34,7 +34,7 @@
 }
 
 @media (max-width:991px){
-  .col-mds-3{
+  .col-mds-3{float: center;
     align: center;
     padding-right: 15px;
     padding-left: 15px;
@@ -185,7 +185,7 @@
   .txt-srv-1{
     width: 100%;
     font-size: 34px;
-    font-family: "Bebas Neue Book";
+    font-family: "BebasNeueBook";
     text-align: center;
     color: #E1E1E1;
     margin-bottom: -1px;
@@ -196,7 +196,7 @@
   .txt-srv-1{
     width: 100%;
     font-size: 32px;
-    font-family: "Bebas Neue Book";
+    font-family: "BebasNeueBook";
     text-align: center;
     color: #E1E1E1;
     margin-bottom: -1px;
@@ -207,7 +207,7 @@
   .txt-srv-1{
     width: 100%;
     font-size: 28px;
-    font-family: "Bebas Neue Book";
+    font-family: "BebasNeueBook";
     text-align: center;
     color: #E1E1E1;
     margin-bottom: -1px;
@@ -220,7 +220,7 @@
   .txt-srv-2{
     width: 100%;
     font-size: 32px;
-    font-family: "FF Market";
+    font-family: "MarketWeb W03 Regular";
     text-align: center;
     color: #F1F1F1;
     margin-bottom: -1px;
@@ -231,7 +231,7 @@
   .txt-srv-2{
     width: 100%;
     font-size: 29px;
-    font-family: "FF Market";
+    font-family: "MarketWeb W03 Regular";
     text-align: center;
     color: #F1F1F1;
     margin-bottom: -1px;
@@ -242,7 +242,7 @@
   .txt-srv-2{
     width: 100%;
     font-size: 26px;
-    font-family: "FF Market";
+    font-family: "MarketWeb W03 Regular";
     text-align: center;
     color: #F1F1F1;
     margin-bottom: -1px;

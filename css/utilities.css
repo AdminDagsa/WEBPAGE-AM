@@ -164,15 +164,31 @@ License: https://themeforest.net/licenses/standard
 /* Text decoration */
 .text-underline {text-decoration:underline}
 
-/* Font family */
+/* Font family
 .main-font {font-family: 'Open Sans', sans-serif}
 .alt-font {font-family: 'Montserrat', sans-serif}
 @import url(//db.onlinewebfonts.com/c/03b9c644d9278b36d36f0a2ca39e4977?family=FF+Market);
 @font-face {font-family: "FF Market"; src: url("//db.onlinewebfonts.com/t/03b9c644d9278b36d36f0a2ca39e4977.eot"); src: url("//db.onlinewebfonts.com/t/03b9c644d9278b36d36f0a2ca39e4977.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/03b9c644d9278b36d36f0a2ca39e4977.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/03b9c644d9278b36d36f0a2ca39e4977.woff") format("woff"), url("//db.onlinewebfonts.com/t/03b9c644d9278b36d36f0a2ca39e4977.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/03b9c644d9278b36d36f0a2ca39e4977.svg#FF Market") format("svg"); }
 
 @import url(//db.onlinewebfonts.com/c/f16b07c3fd5b4fd150cc55daa3a12428?family=Bebas+Neue+Book);
-@font-face {font-family: "Bebas Neue Book"; src: url("//db.onlinewebfonts.com/t/f16b07c3fd5b4fd150cc55daa3a12428.eot"); src: url("//db.onlinewebfonts.com/t/f16b07c3fd5b4fd150cc55daa3a12428.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f16b07c3fd5b4fd150cc55daa3a12428.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f16b07c3fd5b4fd150cc55daa3a12428.woff") format("woff"), url("//db.onlinewebfonts.com/t/f16b07c3fd5b4fd150cc55daa3a12428.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f16b07c3fd5b4fd150cc55daa3a12428.svg#Bebas Neue Book") format("svg"); }
+@font-face {font-family: "BebasNeueBook"; src: url("//db.onlinewebfonts.com/t/f16b07c3fd5b4fd150cc55daa3a12428.eot"); src: url("//db.onlinewebfonts.com/t/f16b07c3fd5b4fd150cc55daa3a12428.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f16b07c3fd5b4fd150cc55daa3a12428.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f16b07c3fd5b4fd150cc55daa3a12428.woff") format("woff"), url("//db.onlinewebfonts.com/t/f16b07c3fd5b4fd150cc55daa3a12428.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f16b07c3fd5b4fd150cc55daa3a12428.svg#Bebas Neue Book") format("svg"); }
+*/
 
+@font-face {font-family: "BebasNeueBook";
+  src: url("fonts/f16b07c3fd5b4fd150cc55daa3a12428.eot"),
+  url("fonts/f16b07c3fd5b4fd150cc55daa3a12428.woff2"),
+  url("fonts/f16b07c3fd5b4fd150cc55daa3a12428.woff"),
+  url("fonts/f16b07c3fd5b4fd150cc55daa3a12428.ttf"),
+  url("fonts/f16b07c3fd5b4fd150cc55daa3a12428.svg#BebasNeueBook") format("svg");
+}
+
+	@font-face {font-family: "MarketWeb W03 Regular";
+	  src: url("fonts/03b9c644d9278b36d36f0a2ca39e4977.eot"),
+	  url("fonts/03b9c644d9278b36d36f0a2ca39e4977.woff2"),
+	  url("fonts/03b9c644d9278b36d36f0a2ca39e4977.woff"),
+	  url("fonts/03b9c644d9278b36d36f0a2ca39e4977.ttf"),
+	  url("fonts/03b9c644d9278b36d36f0a2ca39e4977.svg#MarketWeb W03 Regular");
+}
 
 /* Font weight */
 .fw-100 {font-weight:100}
