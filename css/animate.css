@@ -3642,3 +3642,23 @@
 			.temblor:hover{
 				-webkit-animation:animar .5s 1;
 			}
+
+
+      .animated-chess {
+        animation: fluido 3s ease-in-out infinite;
+
+      }
+
+      @keyframes fluido {
+          0% { -webkit-filter: invert(0%) }
+          10% { -webkit-filter: invert(20%)  }
+          20% { -webkit-filter: invert(40%)  }
+          30% { -webkit-filter: invert(60%)  }
+          40% { -webkit-filter: invert(80%)  }
+          50% { -webkit-filter: invert(100%)  }
+          60% { -webkit-filter: invert(80%) }
+          70% { -webkit-filter: invert(60%)  }
+          80% { -webkit-filter: invert(40%)  }
+          90% { -webkit-filter: invert(20%)  }
+          100% { -webkit-filter: invert(0%)  }
+      }
