@@ -539,18 +539,56 @@
 
 
 
+/* PLAY */
+@media (min-width:992px){
+  .col-mds-ply{
+    max-width: 80%;
+    height: auto;
+  }
+}
 
-/* SERVICIOS */
+@media (max-width:991px){
+  .col-mds-ply{
+    max-width: 80%;
+    height: auto;
+}
+}
+
+@media (min-width:992px){
+  .col-mds-ply-txt{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2D1C1C;
+  }
+}
+
+@media (max-width:991px){
+  .col-mds-ply-txt{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2D1C1C;
+}
+}
+
+
+
+/* CONTACTOS */
 @media (min-width:992px){
   .col-mds-cnt{
-    max-width: 25%;
+    max-width: 20%;
     height: auto;
   }
 }
 
 @media (max-width:991px){
   .col-mds-cnt{
-    max-width: 25%;
+    max-width: 20%;
     height: auto;
 }
 }
@@ -560,7 +598,7 @@
     padding-right: 0px;
     padding-left: 0px;
     padding-top: 10px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     color: #2D1C1C;
   }
@@ -571,7 +609,7 @@
     padding-right: 0px;
     padding-left: 0px;
     padding-top: 0px;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: bold;
     color: #2D1C1C;
 }
