@@ -2635,8 +2635,8 @@ hr.dark {
 
 	/* Global Styles */
 	section {
-		padding-top: 9rem;
-		padding-bottom: 9rem;
+		padding-top: 8rem;
+		padding-bottom: 3.5rem;
 	}
 
 	section.is-scrollable {

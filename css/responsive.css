@@ -30,67 +30,7 @@
 
 
 /* LOGO */
-@media only screen and (min-width: 1200px) {
-  .resolution-logo {
-		margin-top: -120px;
-		margin-left: 430px;
-		width: 530px;
-		height: 530px;
-		position: absolute;
-}
-}
-
-@media only screen and (min-width: 992px) {
-  .resolution-logo {
-    width: 100%;
-    height: auto;
-    margin-top: -50px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-}
-
-@media only screen and (min-width: 991px) {
-  .resolution-logo {
-    width: 100%;
-    height: auto;
-    margin-top: -50px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-}
-
-@media only screen and (min-width: 768px) {
-  .resolution-logo {
-    width: 100%;
-    height: auto;
-    margin-top: -65px;
-    padding-left: 60px;
-    padding-right: 60px;
-}
-}
-
-@media only screen and (min-width: 600px) {
-  .resolution-logo {
-    width: 100%;
-    height: auto;
-    margin-top: -50px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-}
-
-@media only screen and (min-width: 480px) {
-  .resolution-logo {
-    width: 100%;
-    height: auto;
-    margin-top: -45px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-}
-
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width:320px){
   .resolution-logo {
     width: 100%;
     height: auto;
@@ -100,40 +40,80 @@
 }
 }
 
+@media only screen and (min-width:480px){
+  .resolution-logo {
+    width: 100%;
+    height: auto;
+    margin-top: -45px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+}
+
+@media only screen and (min-width:600px){
+  .resolution-logo {
+    width: 100%;
+    height: auto;
+    margin-top: -50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+}
+
+@media only screen and (min-width:768px){
+  .resolution-logo {
+    width: 100%;
+    height: auto;
+    margin-top: -65px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+}
+
+@media only screen and (min-width:992px){
+  .resolution-logo {
+    width: 100%;
+    height: auto;
+    margin-top: -40px;
+    padding-left: 280px;
+    padding-right: 280px;
+}
+}
+
+@media only screen and (min-width:1200px) {
+  .resolution-logo {
+    width: 100%;
+    height: auto;
+    margin-top: -50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+}
+
+@media only screen and (min-width:1366px) {
+  .resolution-logo {
+      width: 100%;
+      height: auto;
+      padding-top: -150px;
+      padding-left: 290px;
+      padding-right: 290px;
+}
+}
+
 
 
 
 
 /* boton a */
-@media only screen and (min-width: 1366px) {
-  .resolution-buttona {
-		margin-top: 350px;
-		margin-left: 587px;
-		width:124px;
-		height: 124px;
-		position: absolute;
-}
-}
-	@media only screen and (min-width: 1200px) {
-  .resolution-buttona {
-			margin-top: -18px;
-			margin-left: -1321px;
-			width:170px;
-			height: 170px;
-			position: absolute;
-}
-}
-@media only screen and (min-width: 992px) {
-  .resolution-buttona {
-		margin-top: -22px;
-		margin-left: -1247px;
-		width:165px;
-		height: 165px;
-		position: absolute;
+@media only screen and (min-width: 320px) {
+  .resolution-buttona {float: left;
+		width: 25%;
+		height: auto;
+    margin-top: -22px;
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (min-width: 480px) {
   .resolution-buttona {float: left;
 		width: 25%;
 		height: auto;
@@ -141,7 +121,15 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 600px) {
+  .resolution-buttona {float: left;
+		width: 25%;
+		height: auto;
+    margin-top: -45px
+  }
+}
+
+@media only screen and (min-width: 768px) {
   .resolution-buttona {float: left;
 		width: 25%;
 		height: auto;
@@ -149,46 +137,36 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 992px) {
   .resolution-buttona {float: left;
-		width: 25%;
+    width: 22%;
 		height: auto;
-    margin-top: -45px
+    margin-top: -30px;
   }
 }
 
-
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 1366px) {
   .resolution-buttona {float: left;
-		width: 25%;
+		width: 22%;
 		height: auto;
-    margin-top: -45px
+    margin-top: -55px;
+    margin-left: 30px;
   }
 }
 
-@media only screen and (max-width: 320px) {
-  .resolution-buttona {float: left;
-		width: 25%;
-		height: auto;
-    margin-top: -22px;
-  }
-}
 
 
 
 /* boton b */
-@media only screen and (min-width: 1366px) {
-  .resolution-buttonb {
-    margin-top: 350px;
-		margin-left: 760px;
-		width:124px;
-		height: 124px;
-    position: absolute;
+@media only screen and (min-width: 320px) {
+  .resolution-buttonb {float: left;
+		width: 25%;
+		height: auto;
+    margin-top: -22px;
   }
 }
 
-
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
   .resolution-buttonb {float: left;
 		width: 25%;
 		height: auto;
@@ -196,29 +174,35 @@
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 992px) {
   .resolution-buttonb {float: left;
-		width: 25%;
+    width: 22%;
 		height: auto;
-    margin-top: -22px;
+    margin-top: -30px;
   }
 }
+
+@media only screen and (min-width: 1366px) {
+  .resolution-buttonb {float: left;
+    width: 22%;
+		height: auto;
+    margin-top: -55px;
+  }
+}
+
 
 
 
 /* boton c */
-@media only screen and (min-width: 1366px) {
-  .resolution-buttonc {
-    margin-top: 350px;
-		margin-left: 942px;
-		width:124px;
-		height: 124px;
-		position: absolute;
+@media only screen and (min-width: 320px) {
+  .resolution-buttonc {float: left;
+		width: 25%;
+		height: auto;
+    margin-top: -22px;
   }
 }
 
-
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
   .resolution-buttonc {float: left;
 		width: 25%;
 		height: auto;
@@ -226,37 +210,27 @@
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 992px) {
   .resolution-buttonc {float: left;
-		width: 25%;
+    width: 22%;
 		height: auto;
-    margin-top: -22px;
+    margin-top: -30px;
   }
 }
+
+@media only screen and (min-width: 1366px) {
+  .resolution-buttonc {float: left;
+    width: 22%;
+		height: auto;
+    margin-top: -55px;
+  }
+}
+
 
 
 
 /* boton d */
-@media only screen and (min-width: 1366px) {
-  .resolution-buttond {
-    margin-top: 350px;
-		margin-left: 1116px;
-		width:124px;
-		height: 124px;
-		position: absolute;
-  }
-}
-
-
-@media only screen and (max-width: 600px) {
-  .resolution-buttond {float: left;
-		width: 25%;
-		height: auto;
-    margin-top: -45px
-  }
-}
-
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 320px) {
   .resolution-buttond {float: left;
 		width: 25%;
 		height: auto;
@@ -264,62 +238,76 @@
   }
 }
 
+@media only screen and (min-width: 600px) {
+  .resolution-buttond {float: left;
+		width: 25%;
+		height: auto;
+    margin-top: -45px
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .resolution-buttond {float: left;
+    width: 22%;
+		height: auto;
+    margin-top: -30px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .resolution-buttond {float: left;
+    width: 22%;
+		height: auto;
+    margin-top: -55px;
+  }
+}
+
+
 
 
 /* boton e */
+@media only screen and (min-width: 320px) {
+  .resolution-buttone {
+		width:100%;
+		height: auto;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .resolution-buttone {
+		width:100%;
+		height: auto;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .resolution-buttone {float: left;
+		width: 85%;
+		height: auto;
+    margin-top: 10px;
+    margin-left: 4px;
+  }
+}
+
 @media only screen and (min-width: 1366px) {
-  .resolution-buttone {
-		margin-top: 405px;
-		margin-left: 120px;
-    width: 365px;
-    height: 365px;
-		position: absolute;
-  }
-}
-
-
-@media only screen and (max-width: 600px) {
-  .resolution-buttone {
-		width:100%;
+  .resolution-buttone {float: left;
+		width: 90%;
 		height: auto;
-    padding-left: 45px;
-    padding-right: 45px;
+    margin-top: 10px;
+    margin-left: -55px;
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .resolution-buttone {
-		width:100%;
-		height: auto;
-    padding-left: 45px;
-    padding-right: 45px;
-  }
-}
+
+
 
 
 
 /* boton f */
-@media only screen and (min-width: 1366px) {
-  .resolution-buttonf {
-    margin-top: 490px;
-		margin-left: 120px;
-		width: 360px;
-		height: 360px;
-		position: absolute;
-  }
-}
-
-
-@media only screen and (max-width: 600px) {
-  .resolution-buttonf {
-    width:100%;
-    height: auto;
-    padding-left: 45px;
-    padding-right: 45px;
-    margin-top: 35px;
-  }
-}
-
 @media only screen and (min-width: 320px) {
   .resolution-buttonf {
     width:100%;
@@ -329,6 +317,35 @@
     margin-top: 22px;
   }
 }
+
+@media only screen and (min-width: 600px) {
+  .resolution-buttonf {
+    width:100%;
+    height: auto;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 35px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .resolution-buttonf {
+		width: 85%;
+		height: auto;
+    margin-top: 75px;
+    margin-left: 4px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .resolution-buttonf {
+		width: 90%;
+		height: auto;
+    margin-top: 90px;
+    margin-left: -55px;
+  }
+}
+
 
 
 
@@ -341,6 +358,26 @@
 		height: 170px;
   }
 }
+
+
+
+
+/* SEPARADOR */
+@media only screen and (min-width: 992px) {
+.separador1{
+  float: right;
+  width: 45%;
+}
+}
+
+@media only screen and (min-width: 992px) {
+.separador2{
+  float: right;
+  width: 55%;
+}
+}
+
+
 
 
 /* TITULOS */
