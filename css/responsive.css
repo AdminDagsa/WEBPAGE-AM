@@ -17,7 +17,7 @@
 
 
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 1366px) {
   .resolution-menu {
 		margin-top: 322px;
 		margin-left: 1192px;
@@ -29,6 +29,7 @@
 
 
 
+/* LOGO */
 @media only screen and (min-width: 1200px) {
   .resolution-logo {
 		margin-top: -120px;
@@ -39,7 +40,7 @@
 }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
   .resolution-logo {
     width: 100%;
     height: auto;
@@ -48,6 +49,27 @@
     padding-right: 50px;
 }
 }
+
+@media only screen and (min-width: 480px) {
+  .resolution-logo {
+    width: 100%;
+    height: auto;
+    margin-top: -45px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+}
+
+@media only screen and (min-width: 320px) {
+  .resolution-logo {
+    width: 100%;
+    height: auto;
+    margin-top: -40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+}
+
 
 
 
@@ -91,11 +113,19 @@
 }
 
 
-@media only screen and max-width: 480px) {
+@media only screen and (max-width: 480px) {
   .resolution-buttona {float: left;
 		width: 25%;
 		height: auto;
     margin-top: -45px
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .resolution-buttona {float: left;
+		width: 25%;
+		height: auto;
+    margin-top: -22px;
   }
 }
 
@@ -121,6 +151,14 @@
   }
 }
 
+@media only screen and (max-width: 320px) {
+  .resolution-buttonb {float: left;
+		width: 25%;
+		height: auto;
+    margin-top: -22px;
+  }
+}
+
 
 
 /* boton c */
@@ -140,6 +178,14 @@
 		width: 25%;
 		height: auto;
     margin-top: -45px
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .resolution-buttonc {float: left;
+		width: 25%;
+		height: auto;
+    margin-top: -22px;
   }
 }
 
@@ -165,6 +211,14 @@
   }
 }
 
+@media only screen and (max-width: 320px) {
+  .resolution-buttond {float: left;
+		width: 25%;
+		height: auto;
+    margin-top: -22px;
+  }
+}
+
 
 
 /* boton e */
@@ -178,6 +232,15 @@
   }
 }
 
+
+@media only screen and (max-width: 600px) {
+  .resolution-buttone {
+		width:100%;
+		height: auto;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .resolution-buttone {
@@ -209,6 +272,16 @@
     padding-left: 45px;
     padding-right: 45px;
     margin-top: 35px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .resolution-buttonf {
+    width:100%;
+    height: auto;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 22px;
   }
 }
 
@@ -379,7 +452,25 @@
 }
 
 
-/* QUIENES SOMOS TXT */
+/* QUIENES SOMOS */
+@media (min-width:992px){
+  .col-mds-qs{float:left;
+    width: 70%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 30px;
+  }
+}
+
+@media (max-width:991px){
+  .col-mds-qs{
+    align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+}
+
 @media (min-width:992px){
   .col-mds-7{float:left;
     width: 30%;
@@ -598,7 +689,7 @@
     padding-right: 0px;
     padding-left: 0px;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: #2D1C1C;
   }
@@ -609,7 +700,7 @@
     padding-right: 0px;
     padding-left: 0px;
     padding-top: 0px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     color: #2D1C1C;
 }
