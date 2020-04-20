@@ -39,14 +39,13 @@
 }
 }
 
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 600px) {
   .resolution-logo {
-		margin-top: -560px;
-		margin-left: 45px;
-    padding-right: 90px;
-    max-width: 100%;
+    width: 100%;
     height: auto;
-		position: absolute;
+    margin-top: -50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 }
 
@@ -54,7 +53,7 @@
 
 
 /* boton a */
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 1366px) {
   .resolution-buttona {
 		margin-top: 350px;
 		margin-left: 587px;
@@ -63,7 +62,7 @@
 		position: absolute;
 }
 }
-	@media only screen and (max-width: 136px) {
+	@media only screen and (min-width: 1200px) {
   .resolution-buttona {
 			margin-top: -18px;
 			margin-left: -1321px;
@@ -72,7 +71,7 @@
 			position: absolute;
 }
 }
-@media only screen and (max-width: 128px) {
+@media only screen and (min-width: 992px) {
   .resolution-buttona {
 		margin-top: -22px;
 		margin-left: -1247px;
@@ -83,31 +82,27 @@
 }
 
 
-@media only screen and (max-width: 500px) {
-  .resolution-buttona {
-		margin-top: -380px;
-		margin-left: 48px;
-		width: 70px;
-		height: 70px;
-		position: absolute;
+@media only screen and (max-width: 600px) {
+  .resolution-buttona {float: left;
+		width: 25%;
+		height: auto;
+    margin-top: -45px
   }
 }
 
 
-@media only screen and (max-width: 480px) {
-  .resolution-buttona {
-		margin-top: -380px;
-		margin-left: 48px;
-		width:50px;
-		height: 50px;
-		position: absolute;
+@media only screen and max-width: 480px) {
+  .resolution-buttona {float: left;
+		width: 25%;
+		height: auto;
+    margin-top: -45px
   }
 }
 
 
 
 /* boton b */
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 1366px) {
   .resolution-buttonb {
     margin-top: 350px;
 		margin-left: 760px;
@@ -118,20 +113,18 @@
 }
 
 
-@media only screen and (max-width: 480px) {
-  .resolution-buttonb {
-		margin-top: -380px;
-		margin-left: 95px;
-		width:50px;
-		height: 50px;
-		position: absolute;
+@media only screen and (max-width: 600px) {
+  .resolution-buttonb {float: left;
+		width: 25%;
+		height: auto;
+    margin-top: -45px
   }
 }
 
 
 
 /* boton c */
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 1366px) {
   .resolution-buttonc {
     margin-top: 350px;
 		margin-left: 942px;
@@ -142,20 +135,18 @@
 }
 
 
-@media only screen and (max-width: 480px) {
-  .resolution-buttonc {
-		margin-top: -380px;
-		margin-left: 142px;
-		width:50px;
-		height: 50px;
-		position: absolute;
+@media only screen and (max-width: 600px) {
+  .resolution-buttonc {float: left;
+		width: 25%;
+		height: auto;
+    margin-top: -45px
   }
 }
 
 
 
 /* boton d */
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 1366px) {
   .resolution-buttond {
     margin-top: 350px;
 		margin-left: 1116px;
@@ -166,20 +157,18 @@
 }
 
 
-@media only screen and (max-width: 480px) {
-  .resolution-buttond {
-		margin-top: -380px;
-		margin-left: 189px;
-		width:50px;
-		height: 50px;
-		position: absolute;
+@media only screen and (max-width: 600px) {
+  .resolution-buttond {float: left;
+		width: 25%;
+		height: auto;
+    margin-top: -45px
   }
 }
 
 
 
 /* boton e */
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 1366px) {
   .resolution-buttone {
 		margin-top: 405px;
 		margin-left: 120px;
@@ -190,20 +179,19 @@
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .resolution-buttone {
-		margin-top: -270px;
-		margin-left: 42px;
-		width:200px;
-		height: 200px;
-		position: absolute;
+		width:100%;
+		height: auto;
+    padding-left: 45px;
+    padding-right: 45px;
   }
 }
 
 
 
 /* boton f */
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 1366px) {
   .resolution-buttonf {
     margin-top: 490px;
 		margin-left: 120px;
@@ -214,13 +202,13 @@
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .resolution-buttonf {
-		margin-top: -225px;
-		margin-left: 45px;
-		width: 195px;
-		height: 195px;
-		position: absolute;
+    width:100%;
+    height: auto;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 35px;
   }
 }
 
@@ -237,6 +225,32 @@
 }
 
 
+/* TITULOS */
+.resolution-div-tittle {
+  margin-top: -130px;
+  width: 100%;
+  height: inherit;
+  position: absolute;
+}
+}
+
+@media only screen and (max-width: 1900px) {
+  .resolution-div-tittle {
+    margin-top: -130px;
+		width: 100%;
+		height: inherit;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .resolution-div-tittle {
+    margin-top: -110px;
+		width: 100%;
+		height: inherit;
+    position: absolute;
+  }
+}
 
 @media only screen and (max-width: 1366px) {
   .resolution-div-tittle {
@@ -247,6 +261,348 @@
   }
 }
 
+@media only screen and (max-width: 1199px) {
+  .resolution-div-tittle {
+    margin-top: -80px;
+		width: 100%;
+		height: inherit;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .resolution-div-tittle {
+    margin-top: -80px;
+		width: 100%;
+		height: inherit;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .resolution-div-tittle {
+    margin-top: -80px;
+		width: 100%;
+		height: inherit;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 539px) {
+  .resolution-div-tittle {
+    margin-top: -70px;
+		width: 100%;
+		height: inherit;
+    position: absolute;
+  }
+}
+
+
+
+
+@media (min-width:992px){
+  .col-mds-3{float:left;
+    width:33.33333333%;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 80px;
+  }
+}
+
+@media (max-width:991px){
+  .col-mds-3{float: center;
+    align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+}
+
+
+
+@media (min-width:992px){
+  .col-mds-4{float:left;
+    width:33.33333333%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width:991px){
+  .col-mds-4{
+    align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+}
+
+
+
+@media (min-width:992px){
+  .col-mds-5{float:left;
+    width:33.33333333%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width:991px){
+  .col-mds-5{float:left;
+    width:33.33333333%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+}
+
+
+
+@media (min-width:992px){
+  .col-mds-6{float:left;
+    width: 70%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 30px;
+  }
+}
+
+@media (max-width:991px){
+  .col-mds-6{
+    align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+}
+
+
+/* QUIENES SOMOS TXT */
+@media (min-width:992px){
+  .col-mds-7{float:left;
+    width: 30%;
+    padding-right: 18px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 21px;
+    text-align: justify;
+  }
+}
+
+@media (min-width:992px){
+  .col-mds-7{float:left;
+    width: 30%;
+    padding-right: 18px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 21px;
+    text-align: justify;
+  }
+}
+
+@media (max-width:991px){
+  .col-mds-7{
+    align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+}
+
+
+
+@media (min-width:992px){
+  .col-mds-8{float:left;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 10px;
+    font-size: 22px;
+    font-family: "FF Market";
+    text-align: center;
+    color: #fff;
+  }
+}
+
+@media (max-width:991px){
+  .col-mds-8{
+    align: center;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    font-size: 22px;
+    text-align: center;
+    color: #F47C29;
+}
+}
+
+
+
+
+@media (min-width:992px){
+  .col-mds-9{float:left;
+    width: 30%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: #F47C29;
+  }
+}
+
+@media (max-width:991px){
+  .col-mds-9{
+    align: center;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: #F47C29;
+}
+}
+
+
+
+@media (min-width:992px){
+  .txt-srv-1{
+    width: 100%;
+    font-size: 34px;
+    font-family: "BebasNeueBook";
+    text-align: center;
+    color: #E1E1E1;
+    margin-bottom: -1px;
+  }
+}
+
+@media (max-width:991px){
+  .txt-srv-1{
+    width: 100%;
+    font-size: 32px;
+    font-family: "BebasNeueBook";
+    text-align: center;
+    color: #E1E1E1;
+    margin-bottom: -1px;
+  }
+}
+
+@media (max-width:600px){
+  .txt-srv-1{
+    width: 100%;
+    font-size: 28px;
+    font-family: "BebasNeueBook";
+    text-align: center;
+    color: #E1E1E1;
+    margin-bottom: -1px;
+  }
+}
+
+
+
+@media (min-width:992px){
+  .txt-srv-2{
+    width: 100%;
+    font-size: 32px;
+    font-family: "MarketWeb W03 Regular";
+    text-align: center;
+    color: #F1F1F1;
+    margin-bottom: -1px;
+  }
+}
+
+@media (max-width:991px){
+  .txt-srv-2{
+    width: 100%;
+    font-size: 29px;
+    font-family: "MarketWeb W03 Regular";
+    text-align: center;
+    color: #F1F1F1;
+    margin-bottom: -1px;
+  }
+}
+
+@media (max-width:600px){
+  .txt-srv-2{
+    width: 100%;
+    font-size: 26px;
+    font-family: "MarketWeb W03 Regular";
+    text-align: center;
+    color: #F1F1F1;
+    margin-bottom: -1px;
+  }
+}
+
+
+
+
+/* SERVICIOS */
+@media (min-width:992px){
+  .col-mds-cnt{
+    max-width: 25%;
+    height: auto;
+  }
+}
+
+@media (max-width:991px){
+  .col-mds-cnt{
+    max-width: 25%;
+    height: auto;
+}
+}
+
+@media (min-width:992px){
+  .col-mds-cnt-txt{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2D1C1C;
+  }
+}
+
+@media (max-width:991px){
+  .col-mds-cnt-txt{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #2D1C1C;
+}
+}
+
+@media (min-width:992px){
+  .col-mds-cnt-ovf{
+    overflow: hidden;
+  }
+}
+
+@media (max-width:991px){
+  .col-mds-cnt-ovf{
+    overflow: hidden;
+}
+}
+
+
+
+
+  .img-responsive1{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.video-responsive1{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 .centered {
   position: flex; /* or absolute */

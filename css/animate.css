@@ -3645,20 +3645,30 @@
 
 
       .animated-chess {
-        animation: fluido 3s ease-in-out infinite;
+        animation: fluido 2s ease-in-out infinite;
 
       }
 
       @keyframes fluido {
           0% { -webkit-filter: invert(0%) }
+          5% { -webkit-filter: invert(10%)  }
           10% { -webkit-filter: invert(20%)  }
+          15% { -webkit-filter: invert(30%)  }
           20% { -webkit-filter: invert(40%)  }
-          30% { -webkit-filter: invert(60%)  }
+          25% { -webkit-filter: invert(48%)  }
+          30% { -webkit-filter: invert(60%) }
+          35% { -webkit-filter: invert(70%)  }
           40% { -webkit-filter: invert(80%)  }
+          45% { -webkit-filter: invert(90%)  }
           50% { -webkit-filter: invert(100%)  }
-          60% { -webkit-filter: invert(80%) }
+          55% { -webkit-filter: invert(90%) }
+          60% { -webkit-filter: invert(80%)  }
+          65% { -webkit-filter: invert(70%)  }
           70% { -webkit-filter: invert(60%)  }
+          75% { -webkit-filter: invert(48%)  }
           80% { -webkit-filter: invert(40%)  }
+          85% { -webkit-filter: invert(30%) }
           90% { -webkit-filter: invert(20%)  }
+          95% { -webkit-filter: invert(10%)  }
           100% { -webkit-filter: invert(0%)  }
       }

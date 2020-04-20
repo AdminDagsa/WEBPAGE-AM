@@ -2766,6 +2766,8 @@ hr.dark {
 	}
 }
 
+/*
+
 
 .x1{
 width:170px;
@@ -2906,8 +2908,3 @@ height: 170px;
 		position: absolute;
   }
 }
-
-
-/* Degradado */
-.degradado{
-	linear- (to right, blue, white);
