@@ -766,27 +766,44 @@
 }
 }
 
+@media (min-width:320px){
+  .col-mds-cnt-txt{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    font-family: "GothamBook";
+    font-size: 17px;
+    font-weight: bold;
+    color: #2D1C1C;
+}
+}
+
+@media (min-width:480px){
+  .col-mds-cnt-txt{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    font-family: "GothamBook";
+    font-size: 24px;
+    font-weight: bold;
+    color: #2D1C1C;
+}
+}
+
 @media (min-width:992px){
   .col-mds-cnt-txt{
     padding-right: 0px;
     padding-left: 0px;
     padding-top: 10px;
-    font-size: 18px;
+    font-family: "GothamBook";
+    font-size: 22px;
     font-weight: bold;
     color: #2D1C1C;
   }
 }
 
-@media (max-width:991px){
-  .col-mds-cnt-txt{
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-top: 0px;
-    font-size: 15px;
-    font-weight: bold;
-    color: #2D1C1C;
-}
-}
+
+
 
 @media (min-width:992px){
   .col-mds-cnt-ovf{

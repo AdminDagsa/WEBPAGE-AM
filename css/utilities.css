@@ -154,7 +154,7 @@ License: https://themeforest.net/licenses/standard
 }
 
 @media(min-width:992px){
-	
+
 }
 
 @media(min-width:1200px){
@@ -188,6 +188,14 @@ License: https://themeforest.net/licenses/standard
 	  url("fonts/03b9c644d9278b36d36f0a2ca39e4977.woff"),
 	  url("fonts/03b9c644d9278b36d36f0a2ca39e4977.ttf"),
 	  url("fonts/03b9c644d9278b36d36f0a2ca39e4977.svg#MarketWeb W03 Regular");
+}
+
+@font-face {font-family: "GothamBook";
+  src: url("a9db6cd9116ff56da3875b35444f0c45.eot"),
+  url("a9db6cd9116ff56da3875b35444f0c45.woff2"),
+  url("a9db6cd9116ff56da3875b35444f0c45.woff"),
+  url("a9db6cd9116ff56da3875b35444f0c45.ttf"),
+  url("a9db6cd9116ff56da3875b35444f0c45.svg#GothamBook");
 }
 
 /* Font weight */
