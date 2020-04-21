@@ -176,18 +176,18 @@ License: https://themeforest.net/licenses/standard
 
 @font-face {font-family: "BebasNeueBook";
   src: url("fonts/f16b07c3fd5b4fd150cc55daa3a12428.eot"),
-  url("fonts/f16b07c3fd5b4fd150cc55daa3a12428.woff2"),
-  url("fonts/f16b07c3fd5b4fd150cc55daa3a12428.woff"),
-  url("fonts/f16b07c3fd5b4fd150cc55daa3a12428.ttf"),
-  url("fonts/f16b07c3fd5b4fd150cc55daa3a12428.svg#BebasNeueBook") format("svg");
+  url("f16b07c3fd5b4fd150cc55daa3a12428.woff2"),
+  url("f16b07c3fd5b4fd150cc55daa3a12428.woff"),
+  url("f16b07c3fd5b4fd150cc55daa3a12428.ttf"),
+  url("f16b07c3fd5b4fd150cc55daa3a12428.svg#BebasNeueBook") format("svg");
 }
 
 	@font-face {font-family: "MarketWeb W03 Regular";
-	  src: url("fonts/03b9c644d9278b36d36f0a2ca39e4977.eot"),
-	  url("fonts/03b9c644d9278b36d36f0a2ca39e4977.woff2"),
-	  url("fonts/03b9c644d9278b36d36f0a2ca39e4977.woff"),
-	  url("fonts/03b9c644d9278b36d36f0a2ca39e4977.ttf"),
-	  url("fonts/03b9c644d9278b36d36f0a2ca39e4977.svg#MarketWeb W03 Regular");
+	  src: url("03b9c644d9278b36d36f0a2ca39e4977.eot"),
+	  url("03b9c644d9278b36d36f0a2ca39e4977.woff2"),
+	  url("03b9c644d9278b36d36f0a2ca39e4977.woff"),
+	  url("03b9c644d9278b36d36f0a2ca39e4977.ttf"),
+	  url("03b9c644d9278b36d36f0a2ca39e4977.svg#MarketWeb W03 Regular");
 }
 
 @font-face {font-family: "GothamBook";
