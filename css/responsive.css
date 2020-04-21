@@ -592,10 +592,10 @@
     padding-right: 0px;
     padding-left: 0px;
     padding-top: 10px;
-    font-size: 22px;
-    font-family: "FF Market";
+    font-size: 36px;
+    font-family: "BebasNeueBook";
     text-align: center;
-    color: #fff;
+    color: #F47C29;
   }
 }
 
@@ -605,7 +605,8 @@
     padding-right: 0px;
     padding-left: 0px;
     padding-top: 0px;
-    font-size: 22px;
+    font-size: 32px;
+    font-family: "BebasNeueBook";
     text-align: center;
     color: #F47C29;
 }
