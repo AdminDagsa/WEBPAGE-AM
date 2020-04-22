@@ -30,6 +30,16 @@
 
 
 /* LOGO */
+@media only screen and (min-width:240px){
+  .resolution-logo {
+    width: 100%;
+    height: auto;
+    margin-top: -40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+}
+
 @media only screen and (min-width:320px){
   .resolution-logo {
     width: 100%;
@@ -105,6 +115,14 @@
 
 
 /* boton a */
+@media only screen and (min-width: 240px) {
+  .resolution-buttona {float: left;
+		width: 25%;
+		height: auto;
+    margin-top: -22px;
+  }
+}
+
 @media only screen and (min-width: 320px) {
   .resolution-buttona {float: left;
 		width: 25%;
@@ -158,6 +176,14 @@
 
 
 /* boton b */
+@media only screen and (min-width: 240px) {
+  .resolution-buttonb {float: left;
+		width: 25%;
+		height: auto;
+    margin-top: -22px;
+  }
+}
+
 @media only screen and (min-width: 320px) {
   .resolution-buttonb {float: left;
 		width: 25%;
@@ -194,6 +220,14 @@
 
 
 /* boton c */
+@media only screen and (min-width: 240px) {
+  .resolution-buttonc {float: left;
+		width: 25%;
+		height: auto;
+    margin-top: -22px;
+  }
+}
+
 @media only screen and (min-width: 320px) {
   .resolution-buttonc {float: left;
 		width: 25%;
@@ -230,6 +264,14 @@
 
 
 /* boton d */
+@media only screen and (min-width: 240px) {
+  .resolution-buttond {float: left;
+		width: 25%;
+		height: auto;
+    margin-top: -22px;
+  }
+}
+
 @media only screen and (min-width: 320px) {
   .resolution-buttond {float: left;
 		width: 25%;
@@ -266,6 +308,15 @@
 
 
 /* boton e */
+@media only screen and (min-width: 240px) {
+  .resolution-buttone {
+		width:100%;
+		height: auto;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+
 @media only screen and (min-width: 320px) {
   .resolution-buttone {
 		width:100%;
@@ -308,6 +359,16 @@
 
 
 /* boton f */
+@media only screen and (min-width: 240px) {
+  .resolution-buttonf {
+    width:100%;
+    height: auto;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 22px;
+  }
+}
+
 @media only screen and (min-width: 320px) {
   .resolution-buttonf {
     width:100%;
@@ -767,6 +828,18 @@
 }
 }
 
+@media (min-width:240px){
+  .col-mds-cnt-txt{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    font-family: "GothamBook";
+    font-size: 10px;
+    font-weight: bold;
+    color: #2D1C1C;
+}
+}
+
 @media (min-width:320px){
   .col-mds-cnt-txt{
     padding-right: 0px;
@@ -844,6 +917,6 @@
 
 
 .preloader-chess{
-  max-width: 150px;
-  max-height: 150px
+  max-width: 180px;
+  max-height: 180px
 }
