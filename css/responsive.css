@@ -45,8 +45,8 @@
     width: 100%;
     height: auto;
     margin-top: -40px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 }
 
@@ -104,7 +104,6 @@
   .resolution-logo {
       width: 100%;
       height: auto;
-      padding-top: -150px;
       padding-left: 290px;
       padding-right: 290px;
 }
@@ -443,76 +442,51 @@
 
 
 /* TITULOS */
-.resolution-div-tittle {
-  margin-top: -130px;
-  width: 100%;
-  height: inherit;
-  position: absolute;
-}
-}
-
-@media only screen and (max-width: 1900px) {
+@media only screen and (min-width: 240px) {
   .resolution-div-tittle {
-    margin-top: -130px;
+    margin-top: -72px;
 		width: 100%;
 		height: inherit;
     position: absolute;
   }
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (min-width: 576px) {
   .resolution-div-tittle {
-    margin-top: -110px;
+    margin-top: -72px;
 		width: 100%;
 		height: inherit;
     position: absolute;
   }
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 768px) {
   .resolution-div-tittle {
-    margin-top: -100px;
+    margin-top: -72px;
 		width: 100%;
 		height: inherit;
     position: absolute;
   }
 }
 
-@media only screen and (max-width: 1199px) {
+@media only screen and (min-width: 992px) {
   .resolution-div-tittle {
-    margin-top: -80px;
+    margin-top: -72px;
 		width: 100%;
 		height: inherit;
     position: absolute;
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (min-width: 1200px) {
   .resolution-div-tittle {
-    margin-top: -80px;
+    margin-top: -128px;
 		width: 100%;
 		height: inherit;
     position: absolute;
   }
 }
 
-@media only screen and (max-width: 767px) {
-  .resolution-div-tittle {
-    margin-top: -80px;
-		width: 100%;
-		height: inherit;
-    position: absolute;
-  }
-}
-
-@media only screen and (max-width: 539px) {
-  .resolution-div-tittle {
-    margin-top: -70px;
-		width: 100%;
-		height: inherit;
-    position: absolute;
-  }
-}
 
 
 
@@ -568,6 +542,24 @@
 
 @media (max-width:991px){
   .col-mds-5{float:left;
+    width:33.33333333%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+}
+
+@media (min-width:992px){
+  .col-mds-5s{
+    width:33.33333333%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width:991px){
+  .col-mds-5s{
     width:33.33333333%;
     padding-right: 0px;
     padding-left: 0px;
@@ -682,7 +674,7 @@
     width: 30%;
     padding-right: 0px;
     padding-left: 0px;
-    padding-top: 10px;
+    margin-top: 150px;
     font-size: 26px;
     font-weight: bold;
     text-align: center;
@@ -920,4 +912,9 @@
 .preloader-chess{
   max-width: 180px;
   max-height: 180px
+}
+
+
+.ul-wdt{float: left;
+  width: 100%;
 }
