@@ -579,13 +579,35 @@
 }
 
 @media (max-width:991px){
-  .col-mds-6{
+  .col-mds-6s{
+    width: 70%;
     align: center;
     padding-right: 15px;
     padding-left: 15px;
     padding-top: 30px;
 }
 }
+
+@media (min-width:992px){
+  .col-mds-6s{
+    width: 70%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 30px;
+  }
+}
+
+@media (max-width:991px){
+  .col-mds-6{float:left;
+    width: 70%;
+    align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+}
+
+
 
 
 /* QUIENES SOMOS */
@@ -668,6 +690,33 @@
 
 
 
+@media (min-width:320px){
+  .col-mds-9{float:left;
+    width: 30%;
+    align: center;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #F47C29;
+}
+}
+
+@media (min-width:480px){
+  .col-mds-9{float:left;
+    width: 30%;
+    align: center;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #F47C29;
+}
+}
 
 @media (min-width:992px){
   .col-mds-9{float:left;
@@ -680,19 +729,6 @@
     text-align: center;
     color: #F47C29;
   }
-}
-
-@media (max-width:991px){
-  .col-mds-9{
-    align: center;
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-top: 0px;
-    font-size: 26px;
-    font-weight: bold;
-    text-align: center;
-    color: #F47C29;
-}
 }
 
 
@@ -916,5 +952,9 @@
 
 
 .ul-wdt{float: left;
+  width: 100%;
+}
+
+.ul-wdts{
   width: 100%;
 }
