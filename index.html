@@ -35,11 +35,11 @@
   <header>
  </header>
 
-<!--
+
  <a href="#contacto" class="backtotop">
      <img src="img/div/contact-div-button.png">
  </a>
--->
+
 
 <!--======= SECCION INICIO =========-->
 <a name="inicio"></a>
@@ -416,23 +416,26 @@
         background-attachment: fixed;
         background-size: 100% auto;" class="ln-section d-lg-flex fullscreen-lg" data-anchor="home" data-tooltip="Home" data-overlay-color="#00050e" data-overlay-opacity="50">
 
-             <img class="resolution-div-tittle" style="margin-top: -70px;" src="img/tittles/div-tittle-jugar.png"></img>
+        <picture>
+<source media="(max-width: 599px)" srcset="img/tittles/div-tittle-jugar-min.png">
+<source media="(min-width: 600px)" srcset="img/tittles/div-tittle-jugar.png">
+</picture>
 
              <div class="container">
              <div style="margin-top: 40px;" class="ul-wdt">
 
                  <p class="col-mds-9">OMNICANALIDAD</BR>MEDIATICA</p>
-                 <img class="col-mds-6" src="img/play/img-01.jpg">
+                 <img class="col-mds-6" src="img/play/img-01.png">
                  </div>
 
                <div class="ul-wdt">
-                 <img class="col-mds-6" src="img/play/img-02.jpg">
+                 <img class="col-mds-6" src="img/play/img-02.png">
                  <p class="col-mds-9">MANEJO</BR>DE MARCA</BR>360</p>
                  </div>
 
                <div class="ul-wdts">
                  <p class="col-mds-9">DISRUPCION</BR>ESTRATEGICA</p>
-                 <img class="col-mds-6s" src="img/play/img-03.jpg">
+                 <img class="col-mds-6s" src="img/play/img-03.png">
                  </div>
 
            </div>
@@ -491,9 +494,8 @@
 
 
 <!--======= SECCION CONTACTO =========-->
-          <a name="top"></a>
           <a name="contacto"></a>
-          <section style="background-image: url('img/backgrounds/background-white.jpg');
+          <section id="contacto" style="background-image: url('img/backgrounds/background-white.jpg');
             background-repeat: repeat;
             background-attachment: fixed;
             background-size: 100% auto;" class="ln-section d-lg-flex fullscreen-lg" data-anchor="home" data-tooltip="Home" data-overlay-color="#00050e" data-overlay-opacity="50">
@@ -638,12 +640,9 @@
 
       <script src="assets/js/jquery.min.js"></script>
   		<script src="assets/js/bootstrap.min.js"></script>
-  		<script src="assets/js/scrolloverflow.min.js"></script>
-  		<script src="assets/js/jquery.fullpage.min.js"></script>
   		<script src="assets/js/jquery.waypoints.min.js"></script>
   		<script src="assets/js/jquery.form.min.js"></script>
   		<script src="assets/js/jquery.smooth-scroll.min.js"></script>
-  		<script src="assets/js/imagesloaded.pkgd.min.js"></script>
   		<script src="assets/js/main.js"></script>
 
 </body>

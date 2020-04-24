@@ -915,6 +915,18 @@
   }
 }
 
+@media (min-width:1366px){
+  .col-mds-cnt-txt{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 10px;
+    font-family: "GothamBook";
+    font-size: 22px;
+    font-weight: bold;
+    color: #2D1C1C;
+  }
+}
+
 
 
 
@@ -928,6 +940,18 @@
   .col-mds-cnt-ovf{
     overflow: hidden;
 }
+}
+
+
+
+
+#div2 {
+  image: url("img/tittles/div-tittle-jugar.png");
+}
+@media only screen and (max-width: 479px) {
+    #div2 {
+      image: url("img/tittles/div-tittle-jugar-min.png");
+    }
 }
 
 
