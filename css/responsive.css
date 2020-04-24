@@ -130,14 +130,6 @@
   }
 }
 
-@media only screen and (min-width: 480px) {
-  .resolution-buttona {float: left;
-		width: 25%;
-		height: auto;
-    margin-top: -45px
-  }
-}
-
 @media only screen and (min-width: 600px) {
   .resolution-buttona {float: left;
 		width: 25%;
@@ -561,6 +553,24 @@
 @media (max-width:991px){
   .col-mds-5s{
     width:33.33333333%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+}
+
+@media (min-width:992px){
+  .col-mds-5d{float:left;
+    width:50%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width:991px){
+  .col-mds-5d{float:left;
+    width:50%;
     padding-right: 0px;
     padding-left: 0px;
     padding-top: 0px;
