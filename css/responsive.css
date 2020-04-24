@@ -109,6 +109,15 @@
 }
 }
 
+@media only screen and (min-width:1920px) {
+  .resolution-logo {
+      width: 100%;
+      height: auto;
+      padding-left: 450px;
+      padding-right: 450px;
+}
+}
+
 
 
 
@@ -345,6 +354,15 @@
   }
 }
 
+@media only screen and (min-width: 1920px) {
+  .resolution-buttone {float: left;
+		width: 85%;
+		height: auto;
+    margin-top: 50px;
+    margin-left: -33px;
+  }
+}
+
 
 
 
@@ -398,6 +416,16 @@
     margin-left: -55px;
   }
 }
+
+@media only screen and (min-width: 1920px) {
+  .resolution-buttonf {float: left;
+		width: 85%;
+		height: auto;
+    margin-top: 40px;
+    margin-left: -33px;
+  }
+}
+
 
 
 
@@ -472,6 +500,55 @@
 
 @media only screen and (min-width: 1200px) {
   .resolution-div-tittle {
+    margin-top: -128px;
+		width: 100%;
+		height: inherit;
+    position: absolute;
+  }
+}
+
+
+/* TITULOS 2 */
+@media only screen and (min-width: 240px) {
+  .resolution-div-tittles {
+    margin-top: -72px;
+		width: 100%;
+		height: inherit;
+    position: absolute;
+    margin-left: -50px;
+    margin-right: -50px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .resolution-div-tittles {
+    margin-top: -72px;
+		width: 100%;
+		height: inherit;
+    position: absolute;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .resolution-div-tittles {
+    margin-top: -72px;
+		width: 100%;
+		height: inherit;
+    position: absolute;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .resolution-div-tittles {
+    margin-top: -72px;
+		width: 100%;
+		height: inherit;
+    position: absolute;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .resolution-div-tittles {
     margin-top: -128px;
 		width: 100%;
 		height: inherit;
@@ -940,18 +1017,6 @@
   .col-mds-cnt-ovf{
     overflow: hidden;
 }
-}
-
-
-
-
-#div2 {
-  image: url("img/tittles/div-tittle-jugar.png");
-}
-@media only screen and (max-width: 479px) {
-    #div2 {
-      image: url("img/tittles/div-tittle-jugar-min.png");
-    }
 }
 
 
