@@ -3633,14 +3633,12 @@
 			50%{-webkit-transform:translate(3px,0px);}
 			60%{-webkit-transform:translate(0px,0px);}
 			70%{-webkit-transform:translate(3px,0px);}
-			80%{-webkit-transform:translate(0px,0px);}
-			90%{-webkit-transform:translate(4px,0px);}
 			100%{-webkit-transform:translate(0px,0px);}
 		}
 
 
 			.temblor:hover{
-				-webkit-animation:animar .3s 1;
+				-webkit-animation:animar .4s 1;
 			}
 
 
