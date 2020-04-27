@@ -3678,3 +3678,11 @@
       .zoom:hover {
         transform: scale(1.1) /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
       }
+
+      .feature-up {
+      	transition: all .2s ease-out;
+      }
+
+      .feature-up:hover {
+      	transform: translateY(-5px);
+      }
