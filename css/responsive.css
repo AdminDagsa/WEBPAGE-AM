@@ -35,8 +35,8 @@
     width: 100%;
     height: auto;
     margin-top: -40px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 18px;
+    padding-right: 18px;
 }
 }
 
@@ -312,7 +312,7 @@
   .resolution-buttone {
 		width:100%;
 		height: auto;
-    margin-top: 105px;
+    margin-top: 80px;
     padding-left: 29px;
     padding-right: 29px;
   }
@@ -1019,6 +1019,42 @@
 @media (max-width:991px){
   .col-mds-cnt-ovf{
     overflow: hidden;
+}
+}
+
+
+
+
+
+@media (min-width:240px){
+.but-responsive1{
+  display: block;
+  max-width: 10px;
+  height: auto;
+}
+}
+
+@media (min-width:992px){
+.but-responsive1{
+  display: block;
+  max-width: 10rem;
+  height: auto;
+}
+}
+
+@media (min-width:1366px){
+.but-responsive1{
+  display: block;
+  max-width: 13rem;
+  height: auto;
+}
+}
+
+@media (min-width:1366px){
+.but-responsive1{
+  display: block;
+  max-width: 16rem;
+  height: auto;
 }
 }
 

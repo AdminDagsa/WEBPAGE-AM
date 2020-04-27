@@ -3686,3 +3686,12 @@
       .feature-up:hover {
       	transform: translateY(-5px);
       }
+
+
+      .but-lf {
+        transition: all .2s ease-out;
+      }
+
+      .but-lf:hover {
+        transform: translateX(-15px);
+      }
