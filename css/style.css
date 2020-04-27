@@ -1086,38 +1086,25 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 /*------------------------------------------------------------------
 [7. Buttons]
 */
+html {
+  scroll-behavior: smooth;
+}
 
 /* Function Buttons */
-a.backtotop {
+.tocontact {
 	display: block;
 	position: fixed;
 	bottom: 4.5rem;
-	right: -4.5rem;
+	right: -2.5rem;
 	width: 10rem;
 	z-index: 5000;
 	color: #fff;
 	text-align: right;
 	line-height: 1;
-	transition: color .7s cubic-bezier(0.54, 0.18, 0.36, 0.81), right .7s cubic-bezier(0.54, 0.18, 0.36, 0.81);
 }
 
-a.backtotop:hover,
-a.backtotop:focus {
-	color: #fff;
-}
 
-a.backtotop span {
-	display: block;
-	white-space: nowrap;
-	font-family: 'Montserrat', Helvetica, sans-serif;
-	font-variant-ligatures: common-ligatures;
-	font-size: 12px;
-	font-weight: 400;
-	letter-spacing: 0;
-	transform: translate(0,-47px) rotate(-90deg);
-}
-
-a.backtotop.active {
+.backtotop.active {
 	right: 0;
 }
 
