@@ -1286,51 +1286,65 @@
 .div-margin{
    margin-top: -30px;
 }
+}
 
 @media (min-width:320px){
 .div-margin{
    margin-top: -25px;
+}
 }
 
 @media (min-width:600px){
 .div-margin{
    margin-top: -5px;
 }
+}
 
 @media (min-width:992px){
 .div-margin{
    margin-top: 25px;
+}
 }
 
 @media (min-width:1200px){
 .div-margin{
    margin-top: 10px;
 }
+}
 
 @media (min-width:1366px){
 .div-margin{
    margin-top: 5px;
+}
 }
 
 @media (min-width:1920px){
 .div-margin{
    margin-top: 50px;
 }
-
+}
 
 
 
 
 @media (min-width:240px){
-.but-responsive1{
+.but-responsive{
   display: block;
-  max-width: 0px;
+  max-width: 5px;
+  height: auto;
+}
+}
+
+@media (min-width:320px){
+.but-responsive{
+  display: block;
+  max-width: 5px;
   height: auto;
 }
 }
 
 @media (min-width:992px){
-.but-responsive1{
+.but-responsive{
   display: block;
   max-width: 10rem;
   height: auto;
@@ -1338,15 +1352,15 @@
 }
 
 @media (min-width:1366px){
-.but-responsive1{
+.but-responsive{
   display: block;
   max-width: 13rem;
   height: auto;
 }
 }
 
-@media (min-width:1366px){
-.but-responsive1{
+@media (min-width:1920px){
+.but-responsive{
   display: block;
   max-width: 16rem;
   height: auto;
