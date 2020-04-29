@@ -1324,7 +1324,7 @@
 @media (min-width:240px){
 .but-responsive1{
   display: block;
-  max-width: 10px;
+  max-width: 0px;
   height: auto;
 }
 }
