@@ -1405,3 +1405,8 @@
 .ul-wdts{
   width: 100%;
 }
+
+.gradient-qs{
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,0.4542191876750701) 0%, rgba(0,0,0,0.23012955182072825) 34%, rgba(0,0,0,0) 66%, rgba(0,0,0,0) 100%);
+}
