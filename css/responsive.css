@@ -1097,8 +1097,9 @@
   .col-mds-qs{
     width: 100%;
     padding-top: 20px;
-    font-size: 21px;
+    font-size: 12px;
     text-align: center;
+    line-height : 20px;
     font-family: "GothamBook";
   }
 }
@@ -1106,9 +1107,10 @@
 @media (min-width:992px){
   .col-mds-qs{
     width: 100%;
-    padding-top: 10px;
-    font-size: 21px;
+    padding-top: 0px;
+    font-size: 16px;
     text-align: center;
+    line-height : 20px;
     font-family: "GothamBook";
   }
 }
@@ -1119,6 +1121,7 @@
     padding-top: 3px;
     font-size: 18px;
     text-align: center;
+    line-height : 20px;
     font-family: "GothamBook";
   }
 }
@@ -1126,8 +1129,8 @@
 @media (min-width:1920px){
   .col-mds-qs{
     width: 100%;
-    padding-top: 10px;
-    font-size: 21px;
+    padding-top: 12px;
+    font-size: 26px;
     text-align: center;
     font-family: "GothamBook";
   }
@@ -1138,11 +1141,12 @@
 @media (max-width:991px){
   b{
     width: 100%;
-    padding-top: 20px;
-    font-size: 21px;
+    padding-top: 0px;
+    font-size: 12px;
     text-align: center;
     font-family: "GothamBook";
     font-weight: bold;
+    line-height : 20px;
     color: #FF5733;
   }
 }
@@ -1150,11 +1154,13 @@
 @media (min-width:992px){
   b{
     width: 100%;
-    padding-top: 10px;
-    font-size: 21px;
+    padding-top: 3px;
+    font-size: 16px;
     text-align: center;
     font-family: "GothamBook";
     font-weight: bold;
+    line-height : 20px;
+    line-height : 20px;
     color: #FF5733;
   }
 }
@@ -1167,6 +1173,7 @@
     text-align: center;
     font-family: "GothamBook";
     font-weight: bold;
+    line-height : 20px;
     color: #FF5733;
   }
 }
@@ -1174,8 +1181,8 @@
 @media (min-width:1920px){
   b{
     width: 100%;
-    padding-top: 10px;
-    font-size: 21px;
+    padding-top: 12px;
+    font-size: 25px;
     text-align: center;
     font-family: "GothamBook";
     font-weight: bold;
@@ -1189,10 +1196,11 @@
   .col-mds-qs-f{
     width: 100%;
     padding-top: 20px;
-    font-size: 21px;
+    font-size: 16px;
     text-align: center;
     font-family: "MarketWeb W03 Regular";
     font-weight: bold;
+    line-height : 20px;
   }
 }
 
@@ -1204,6 +1212,7 @@
     text-align: center;
     font-family: "MarketWeb W03 Regular";
     font-weight: bold;
+    line-height : 20px;
   }
 }
 
@@ -1215,13 +1224,14 @@
     text-align: center;
     font-family: "MarketWeb W03 Regular";
     font-weight: bold;
+    line-height : 20px;
   }
 }
 
 @media (min-width:1920px){
   .col-mds-qs-f{
     width: 100%;
-    padding-top: 10px;
+    padding-top: 12px;
     font-size: 32px;
     text-align: center;
     font-family: "MarketWeb W03 Regular";
@@ -1271,6 +1281,41 @@
 }
 }
 
+
+@media (min-width:240px){
+.div-margin{
+   margin-top: -30px;
+}
+
+@media (min-width:320px){
+.div-margin{
+   margin-top: -25px;
+}
+
+@media (min-width:600px){
+.div-margin{
+   margin-top: -5px;
+}
+
+@media (min-width:992px){
+.div-margin{
+   margin-top: 25px;
+}
+
+@media (min-width:1200px){
+.div-margin{
+   margin-top: 10px;
+}
+
+@media (min-width:1366px){
+.div-margin{
+   margin-top: 5px;
+}
+
+@media (min-width:1920px){
+.div-margin{
+   margin-top: 50px;
+}
 
 
 
