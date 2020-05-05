@@ -1330,7 +1330,7 @@
 @media (min-width:240px){
 .but-responsive{
   display: block;
-  max-width: 5px;
+  max-width: 0px;
   height: auto;
 }
 }
@@ -1338,7 +1338,7 @@
 @media (min-width:320px){
 .but-responsive{
   display: block;
-  max-width: 5px;
+  max-width: 0px;
   height: auto;
 }
 }
@@ -1409,4 +1409,12 @@
 .gradient-qs{
   background: rgb(0,0,0);
   background: linear-gradient(0deg, rgba(0,0,0,0.4542191876750701) 0%, rgba(0,0,0,0.23012955182072825) 34%, rgba(0,0,0,0) 66%, rgba(0,0,0,0) 100%);
+}
+
+
+.div-img-qs{
+  max-width: 80%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 }
