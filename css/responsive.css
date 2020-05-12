@@ -1,22 +1,3 @@
-
-.background {
-  background-image: url('img/background-black.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: 100% auto;
-}
-}
-@media only screen and (max-width: 1366px) {
-  .resolution-background {
-    background-image: url('img/background-black.jpg');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: 100% auto;
-}
-}
-
-
-
 @media only screen and (min-width: 1366px) {
   .resolution-menu {
 		margin-top: 322px;
@@ -1033,7 +1014,7 @@
     padding-left: 0px;
     padding-top: 0px;
     font-family: "GothamBook";
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
     color: #2D1C1C;
 }
@@ -1045,7 +1026,7 @@
     padding-left: 0px;
     padding-top: 0px;
     font-family: "GothamBook";
-    font-size: 19px;
+    font-size: 18px;
     font-weight: bold;
     color: #2D1C1C;
 }
@@ -1057,7 +1038,7 @@
     padding-left: 0px;
     padding-top: 10px;
     font-family: "GothamBook";
-    font-size: 19px;
+    font-size: 18x;
     font-weight: bold;
     color: #2D1C1C;
   }
@@ -1069,7 +1050,7 @@
     padding-left: 0px;
     padding-top: 10px;
     font-family: "GothamBook";
-    font-size: 22px;
+    font-size: 21px;
     font-weight: bold;
     color: #2D1C1C;
   }
@@ -1368,7 +1349,21 @@
 }
 
 
+.footer-color{
+  color: #F1F1F1;
+}
 
+.footer-align{
+  font-size: 14px;
+  text-align: justify;
+  line-height : 25px;
+}
+
+.iframe-maps{
+  padding-top: 20px;
+  width: 100%;
+  height: 250px;
+}
 
   .img-responsive1{
     display: block;
