@@ -394,11 +394,29 @@
   }
 }
 
+@media only screen and (min-width: 1500px) {
+  .resolution-buttone {float: left;
+		width: 90%;
+		height: auto;
+    margin-top: -30px;
+    margin-left: -55px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .resolution-buttone {float: left;
+		width: 90%;
+		height: auto;
+    margin-top: 50px;
+    margin-left: -55px;
+  }
+}
+
 @media only screen and (min-width: 1920px) {
   .resolution-buttone {float: left;
 		width: 85%;
 		height: auto;
-    margin-top: 50px;
+    margin-top: 60px;
     margin-left: -33px;
   }
 }
@@ -1296,6 +1314,12 @@
 @media (min-width:1366px){
 .div-margin{
    margin-top: 5px;
+}
+}
+
+@media (min-width:1500px){
+.div-margin{
+   margin-top: 30px;
 }
 }
 
