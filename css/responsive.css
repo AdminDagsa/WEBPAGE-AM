@@ -1438,8 +1438,6 @@
   margin-right: auto;
 }
 
-.col-md-captcha {
-  width: 50%;
-  flex: 50%;
-  margin-bottom: 5px;
+.dss{
+  margin-bottom: 5px
 }
