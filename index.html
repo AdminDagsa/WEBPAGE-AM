@@ -360,25 +360,25 @@
 <section id="background-black" class="ln-section d-lg-flex fullscreen-lg">
 
 <img class="resolution-div-tittle"src="img/tittles/div-tittle-jugar.png"></img>
-    
+
   <div class="container">
-    <div class="ul-wdt">    
+    <div class="ul-wdt">
       <p class="col-mds-9">OMNICANALIDAD</BR>MEDIATICA</p>
       <img class="col-mds-6" src="img/play/img-01.png">
     </div>
-    
+
     <div class="ul-wdt">
       <img class="col-mds-6" src="img/play/img-02.png">
       <p class="col-mds-9">MANEJO</BR>DE MARCA</BR>360</p>
     </div>
-    
+
     <div class="ul-wdts">
       <p class="col-mds-9">DISRUPCIÓN</BR>ESTRATÉGICA</p>
       <img class="col-mds-6s" src="img/play/img-03.png">
     </div>
-    
+
   </div>
-    
+
 </section>
 
 
@@ -467,7 +467,7 @@
         <h2 class="mb-4 animated col-mds-cnt-txt" data-animation="fadeInUp">Haz una consulta:</h2>
          <div class="contact-form">
 
-           <form class="text-white mb-0" id="cf" name="cf" action="include/sendemail.php" method="post" autocomplete="off">
+           <form class="text-white mb-0" id="cf" name="cf" form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
              <div class="form-row">
 
                <div class="form-process"></div>
@@ -500,6 +500,8 @@
                  <input type="text" id="cf-botcheck" name="cf-botcheck" value="" class="form-control fc-bordered fc-light" />
                </div>
 
+               <div data-netlify-recaptcha="true"></div>
+
                <div class="col-12">
                  <button class="btn btn-white" type="submit" id="cf-submit" name="cf-submit">Enviar</button>
                </div>
@@ -507,6 +509,7 @@
               </div>
             </form>
           <div class="contact-form-result pt-1"></div>
+
         </div>
       </div>
     </div>
